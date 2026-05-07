@@ -12,7 +12,7 @@ st.set_page_config(
 # -------------------------------
 # LOAD DATA
 # -------------------------------
-BASE_DIR = os.path.dirname(_file_)
+BASE_DIR = os.path.dirname(__file__)
 
 csv_path = os.path.join(BASE_DIR, "merged.csv")
 
